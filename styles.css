@@ -1,0 +1,25 @@
+.canvas {
+    display: inline-block;
+}
+
+.canvasContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+    grid-column: 1 / -1;
+}
